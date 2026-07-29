@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('pending_orders', function (Blueprint $table) {
             $table->id();
             $table->foreignId('store_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('user_id')->constrained()->nullOnDelete();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('set null');
             $table->string('order_number')->unique();
             $table->json('cart_items');
             $table->integer('subtotal');
