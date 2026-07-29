@@ -116,8 +116,8 @@
                     <span class="material-symbols-outlined text-white text-3xl" style="font-variation-settings: 'FILL' 1;">point_of_sale</span>
                 </div>
                 <div>
-                    <h1 class="font-headline font-extrabold text-2xl text-white tracking-tight">POS System</h1>
-                    <p class="text-white/70 text-sm font-medium">Arka POS Platform</p>
+                    <h1 class="font-headline font-extrabold text-2xl text-white tracking-tight">JOY POS</h1>
+                    <p class="text-white/70 text-sm font-medium">Point Of Sales System</p>
                 </div>
             </div>
 
@@ -275,8 +275,8 @@
             <!-- Footer Info -->
             <div class="mt-8 pt-6 border-t border-outline-variant/30">
                 <p class="text-xs text-on-surface-variant text-center leading-relaxed">
-                    Hanya untuk karyawan yang berwenang.<br />
-                    Semua aktivitas login dicatat dalam sistem.
+                    Platform hanya untuk karyawan.<br />
+                    Semua aktivitas login akan dicatat dalam sistem.
                 </p>
             </div>
         </div>
